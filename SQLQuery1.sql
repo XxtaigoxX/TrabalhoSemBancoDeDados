@@ -3,12 +3,12 @@ use trabalho
 go
 CREATE TABLE Categoria (
     id INT PRIMARY KEY IDENTITY,
-    nome NVARCHAR(100) NOT NULL
+    nome VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE Produto (
     id INT PRIMARY KEY IDENTITY,
-    nome NVARCHAR(100) NOT NULL,
+    nome VARCHAR(100) NOT NULL,
     preco DECIMAL(10, 2) NOT NULL,
     categoria_id INT,
     FOREIGN KEY (categoria_id) REFERENCES Categoria(id)
@@ -16,8 +16,8 @@ CREATE TABLE Produto (
 
 CREATE TABLE Cliente (
     id INT PRIMARY KEY IDENTITY,
-    nome NVARCHAR(100) NOT NULL,
-    email NVARCHAR(100) NOT NULL
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE Venda (
