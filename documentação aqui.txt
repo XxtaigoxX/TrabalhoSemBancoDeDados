@@ -1,0 +1,29 @@
+questionario para levantar os requisitos funcionais
+1. Quais dificuldades você enfrenta ao utilizar o sistema atual de loja de instrumentos?
+Atualmente eu nao tenho nenhum sistema na loja, então eu sofro principalmente com a parte de controlar o estoque dos meus produtos e saber pra onde eles foram, se foram vendidos,se foram roubados, se eu so perdi mesmo. essas coisas sabe?
+2. Quais informações você sente falta no sistema atual de loja de instrumentos?
+Eu sinto falta de ter um controle melhor dos meus produtos e dos clientes, ter que procurar toda vez que alguem me pede algo e eu nao sei se tem isso ou nao
+3. Quais tarefas você acha que o sistema de loja de instrumentos poderia facilitar para você?
+controlar o estoque dos produtos principalmente.
+4. O que você espera que o novo sistema de loja de instrumentos faça para você?
+facilite minha vida,
+5. Como você imagina que o sistema de loja de instrumentos deveria ser para te facilitar a vida?
+intuitivo e fácil de usar, confiável e seguro, Que me permita adaptar o sistema às minhas necessidades específicas da loja, rápido e eficiente
+6. O que você espera que o novo sistema de loja de instrumentos te traga como benefícios?
+aumento da minha produtividade, um atendimento melhor ao meu cliente e uma organização melhor
+
+Requisitos funcionais
+RF1: Cadastrar novos produtos.
+RF2: Atualizar informações de produtos existentes.
+RF3: Excluir produtos do cadastro.
+RF4: Buscar produtos por ID.
+RF5: Listar todos os produtos cadastrados.
+Requisitos Não Funcionais (RNF):
+RNF1: A interface do sistema é simples e intuitiva, utilizando controles comuns do JavaFX.
+RNF2: O sistema fornece mensagens claras e informativas ao usuário, indicando o resultado das operações.
+RNF3: O sistema responde rapidamente às solicitações do usuário, com tempo de carregamento aceitável para telas e listagens.
+RNF4: O acesso ao sistema é restrito a usuários autenticados por meio de login e senha.
+RNF5: O sistema utiliza um banco de dados SQL Server para armazenar os dados de forma segura e confiável.
+
+link dos diagramas:
+https://drive.google.com/file/d/1mME4RONcL-8OMSaQbAAoh6hkZKtIn9Jw/view?usp=sharing
